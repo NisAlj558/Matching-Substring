@@ -1,0 +1,11 @@
+ALGORITHM     countSubstring(string[], start, end)
+//input:string of i characters,starting char start to check first chart of substring  ,ending char end to //check last chart of substring  
+//output: the number of matching substrings in given string
+totalCount 0
+count 0
+for i 0 to n-1
+           if (string[i]==start)
+               count  count +1
+           if (string[i]==end)
+               totalCount  totalCount+ count 
+return  totalCount 
